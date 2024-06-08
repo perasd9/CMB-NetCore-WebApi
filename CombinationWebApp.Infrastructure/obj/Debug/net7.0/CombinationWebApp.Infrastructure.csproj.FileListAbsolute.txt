@@ -1,0 +1,5 @@
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\CombinationWebApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\CombinationWebApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\CombinationWebApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\CombinationWebApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\CombinationWebApp.Infrastructure.csproj.CoreCompileInputs.cache

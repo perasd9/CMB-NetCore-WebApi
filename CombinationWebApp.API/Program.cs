@@ -1,4 +1,6 @@
 
+using CombinationWebApp.API.Configuration;
+
 namespace CombinationWebApp.API
 {
     public class Program
@@ -7,12 +9,12 @@ namespace CombinationWebApp.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            builder.Services.RegisterControllers();
 
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.RegisterDbContext(builder.Configuration);
 
             var app = builder.Build();
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SywCPhkZXgLWsqom7M4Yx97bsI44fnW76EABUuka5CCzuNqYfzvE8etvFC+KtH73mNsJ87zskXVw1Lp1DAtgUQ==",
+  "dgSpecHash": "GOC641fZvV6neP0Fc1DhH/xTus1+rba649e8mnFZannW55E5jxmRL5M+7oFJDb/y48rni2UCoFSgJCT6ukLr6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Application\\CombinationWebApp.Application.csproj",
   "expectedPackageFiles": [],
