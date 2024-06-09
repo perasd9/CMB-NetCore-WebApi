@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinationWebApp.Applicati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinationWebApp.Core", "CombinationWebApp.Core\CombinationWebApp.Core.csproj", "{76E4A9F9-31A3-48B4-BC54-3340C72D2137}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinationWebApp.Persistence", "CombinationWebApp.Persistence\CombinationWebApp.Persistence.csproj", "{B5C02194-571E-4C46-9C75-C4D69402FED3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,10 +39,6 @@ Global
 		{76E4A9F9-31A3-48B4-BC54-3340C72D2137}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76E4A9F9-31A3-48B4-BC54-3340C72D2137}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76E4A9F9-31A3-48B4-BC54-3340C72D2137}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5C02194-571E-4C46-9C75-C4D69402FED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5C02194-571E-4C46-9C75-C4D69402FED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5C02194-571E-4C46-9C75-C4D69402FED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5C02194-571E-4C46-9C75-C4D69402FED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
