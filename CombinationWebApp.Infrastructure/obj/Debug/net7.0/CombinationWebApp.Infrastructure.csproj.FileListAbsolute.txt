@@ -3,3 +3,17 @@ C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\Combina
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\CombinationWebApp.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\CombinationWebApp.Infrastructure.AssemblyInfo.cs
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\CombinationWebApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\bin\Debug\net7.0\CombinationWebApp.Infrastructure.deps.json
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\bin\Debug\net7.0\CombinationWebApp.Infrastructure.runtimeconfig.json
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\bin\Debug\net7.0\CombinationWebApp.Infrastructure.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\bin\Debug\net7.0\CombinationWebApp.Infrastructure.pdb
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\bin\Debug\net7.0\CombinationWebApp.Application.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\bin\Debug\net7.0\CombinationWebApp.Core.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\bin\Debug\net7.0\CombinationWebApp.Application.pdb
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\bin\Debug\net7.0\CombinationWebApp.Core.pdb
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\CombinationWebApp.Infrastructure.csproj.CopyComplete
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\CombinationWebApp.Infrastructure.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\refint\CombinationWebApp.Infrastructure.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\CombinationWebApp.Infrastructure.pdb
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\CombinationWebApp.Infrastructure.genruntimeconfig.cache
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Infrastructure\obj\Debug\net7.0\ref\CombinationWebApp.Infrastructure.dll

@@ -1210,6 +1210,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "CombinationWebApp.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CombinationWebApp.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CombinationWebApp.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CombinationWebApp.Application.dll": {}
+        }
+      },
+      "CombinationWebApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CombinationWebApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CombinationWebApp.Core.dll": {}
+        }
       }
     }
   },
@@ -4013,10 +4036,22 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "CombinationWebApp.Application/1.0.0": {
+      "type": "project",
+      "path": "../CombinationWebApp.Application/CombinationWebApp.Application.csproj",
+      "msbuildProject": "../CombinationWebApp.Application/CombinationWebApp.Application.csproj"
+    },
+    "CombinationWebApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../CombinationWebApp.Core/CombinationWebApp.Core.csproj",
+      "msbuildProject": "../CombinationWebApp.Core/CombinationWebApp.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "CombinationWebApp.Application >= 1.0.0",
+      "CombinationWebApp.Core >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5"
     ]
   },
@@ -4050,7 +4085,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Application\\CombinationWebApp.Application.csproj": {
+              "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Application\\CombinationWebApp.Application.csproj"
+            },
+            "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Core\\CombinationWebApp.Core.csproj": {
+              "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Core\\CombinationWebApp.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

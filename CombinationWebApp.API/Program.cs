@@ -9,16 +9,20 @@ namespace CombinationWebApp.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.RegisterControllers();
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             builder.Services.RegisterDbContext(builder.Configuration);
 
+            builder.Services.RegisterControllers();
+
+            builder.Services.RegisterRepositories();
+            builder.Services.RegisterServices();
+
+
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();

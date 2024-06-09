@@ -10,3 +10,8 @@ C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\Combina
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\refint\CombinationWebApp.Presentation.dll
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\CombinationWebApp.Presentation.pdb
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\ref\CombinationWebApp.Presentation.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Application.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Core.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Application.pdb
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Core.pdb
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\CombinationWebApp.Presentation.csproj.CopyComplete

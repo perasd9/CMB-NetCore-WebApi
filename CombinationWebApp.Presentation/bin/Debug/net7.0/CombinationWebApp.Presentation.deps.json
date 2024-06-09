@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "CombinationWebApp.Presentation/1.0.0": {
         "dependencies": {
+          "CombinationWebApp.Application": "1.0.0",
+          "CombinationWebApp.Core": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "runtime": {
@@ -734,6 +736,19 @@
           "System.Threading": "4.0.11",
           "System.Xml.ReaderWriter": "4.0.11"
         }
+      },
+      "CombinationWebApp.Application/1.0.0": {
+        "dependencies": {
+          "CombinationWebApp.Core": "1.0.0"
+        },
+        "runtime": {
+          "CombinationWebApp.Application.dll": {}
+        }
+      },
+      "CombinationWebApp.Core/1.0.0": {
+        "runtime": {
+          "CombinationWebApp.Core.dll": {}
+        }
       }
     }
   },
@@ -1253,6 +1268,16 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "CombinationWebApp.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CombinationWebApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

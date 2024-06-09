@@ -323,7 +323,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Application\\CombinationWebApp.Application.csproj": {
+                "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Application\\CombinationWebApp.Application.csproj"
+              },
+              "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Core\\CombinationWebApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Core\\CombinationWebApp.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CombinationWebApp.Application.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CombinationWebApp.Presentation.Controllers
 {
@@ -6,10 +7,17 @@ namespace CombinationWebApp.Presentation.Controllers
     [Route("api/v1/user")]
     public class UserController : ControllerBase
     {
+        private readonly UserService _userService;
+
+        public UserController(UserService userService)
+        {
+            _userService = userService;
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetUsers()
         {
-            return NoContent();
+            return Ok(await _userService.GetUsers());
         }
     }
 }

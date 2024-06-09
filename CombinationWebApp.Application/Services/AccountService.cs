@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CombinationWebApp.Application.Interfaces.Repositories
+namespace CombinationWebApp.Application.Services
 {
-    public interface TransactionRepository
+    public class AccountService
     {
     }
 }
