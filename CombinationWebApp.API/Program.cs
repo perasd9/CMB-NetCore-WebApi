@@ -1,5 +1,6 @@
 
 using CombinationWebApp.API.Configuration;
+using CombinationWebApp.Application.GrpcServices;
 
 namespace CombinationWebApp.API
 {
@@ -20,6 +21,7 @@ namespace CombinationWebApp.API
             builder.Services.RegisterRepositories();
             builder.Services.RegisterServices();
 
+            builder.Services.RegisterGrpc();
 
             var app = builder.Build();
 
@@ -33,8 +35,8 @@ namespace CombinationWebApp.API
 
             app.UseAuthorization();
 
-
             app.MapControllers();
+            app.MapGrpcService<UserServiceGrpc>();
 
             app.Run();
         }

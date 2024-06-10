@@ -1,11 +1,6 @@
 ﻿using CombinationWebApp.Core.Model;
 using CombinationWebApp.Infrastructure.Context.Configuration;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CombinationWebApp.Infrastructure.ContextDb
 {
@@ -16,10 +11,10 @@ namespace CombinationWebApp.Infrastructure.ContextDb
 
         }
 
-        public DbSet<Account> Accounts { get;}
-        public DbSet<User> Users { get;}
-        public DbSet<Transaction> Transactions { get;}
-        public DbSet<Category> Categories { get;}
+        public DbSet<Account>? Accounts { get;}
+        public DbSet<User>? Users { get;}
+        public DbSet<Transaction>? Transactions { get;}
+        public DbSet<Category>? Categories { get;}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -1,0 +1,40 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "CombinationWebApp.Protos";
+
+message Transaction {
+  int32 transaction_id = 1;
+  string account_number = 2;
+  string transaction_purpose = 3;
+  double transaction_amount = 4;
+  string account_recipient_number = 5;
+  string recipient_name = 6;
+  string recipient_address = 7;
+  int32 account_id = 8;
+  Account account = 9;
+  repeated Category categories = 10;
+}
+
+message Category {
+  int32 category_id = 1;
+  string category_name = 2;
+  string category_description = 3;
+  repeated Transaction transactions = 4;
+}
+
+message Account {
+  int32 account_id = 1;
+  string account_number = 2;
+  double account_balance = 3;
+  int32 user_id = 4;
+  User user = 5;
+}
+
+message User {
+  int32 user_id = 1;
+  string username = 2;
+  string password = 3;
+  string name = 4;
+  string surname = 5;
+  string address = 6;
+}

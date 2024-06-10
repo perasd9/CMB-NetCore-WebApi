@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CombinationWebApp.Application.Interfaces.Repositories.Abstraction
 {
-    public interface IRepository<TEntity> where TEntity : EntityBase
+    public interface IRepository<TEntity> where TEntity : class
     {
         IQueryable<TEntity> GetAll();
         IQueryable<TEntity> GetBySearch(Expression<Func<TEntity, bool>> expression);

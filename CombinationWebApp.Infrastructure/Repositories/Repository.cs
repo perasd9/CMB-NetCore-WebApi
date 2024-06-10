@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 
 namespace CombinationWebApp.Infrastructure.Repositories
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : EntityBase
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
         private ContextDb.Context _context;
 

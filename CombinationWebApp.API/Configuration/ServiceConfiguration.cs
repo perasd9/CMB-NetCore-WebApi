@@ -1,4 +1,5 @@
-﻿using CombinationWebApp.Application.Interfaces.Repositories;
+﻿using CombinationWebApp.Application.GrpcServices;
+using CombinationWebApp.Application.Interfaces.Repositories;
 using CombinationWebApp.Application.Interfaces.Repositories.UnitOfWork;
 using CombinationWebApp.Application.Services;
 using CombinationWebApp.Infrastructure.ContextDb;
@@ -39,7 +40,13 @@ namespace CombinationWebApp.API.Configuration
             services.AddTransient<AccountService>();
             services.AddTransient<CategoryService>();
             services.AddTransient<TransactionService>();
-            services.AddTransient<UserService>();
+            //services.AddTransient<UserService>();
+            services.AddTransient<UserServiceGrpc>();
+        }
+
+        public static void RegisterGrpc(this IServiceCollection services)
+        {
+            services.AddGrpc();
         }
     }
 }

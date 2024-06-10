@@ -1,0 +1,36 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "CombinationWebApp.Protos";
+
+import "Protos/common.proto";
+
+service UserService {
+  rpc GetAll (Empty) returns (UserList);
+  rpc GetBySearch (UserSearchRequest) returns (UserList);
+  rpc Save (UserRequest) returns (UserReply);
+  rpc Update (UserRequest) returns (UserReply);
+  rpc Remove (UserRemoveRequest) returns (Empty);
+}
+
+message Empty{}
+
+message UserList {
+  repeated User users = 1;
+}
+
+message UserSearchRequest {
+  string search_query = 1;
+}
+
+message UserRequest {
+  User user = 1;
+}
+
+message UserRemoveRequest {
+  int32 user_id = 1;
+}
+
+message UserReply {
+  User user = 1;
+}
+

@@ -82,3 +82,10 @@ C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\Combina
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\obj\Debug\net7.0\CombinationWebApp.API.genruntimeconfig.cache
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\obj\Debug\net7.0\ref\CombinationWebApp.API.dll
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\obj\Debug\net7.0\CombinationWebApp.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\Grpc.AspNetCore.Server.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\Grpc.Core.Api.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\Grpc.Net.Client.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\Grpc.Net.Common.dll

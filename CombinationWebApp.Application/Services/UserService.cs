@@ -19,7 +19,8 @@ namespace CombinationWebApp.Application.Services
 
         public async Task<IEnumerable<User>> GetUsers()
         {
-            return _unitOfWork.UserRepository.GetAll().ToList();
+            //return _unitOfWork.UserRepository.GetAll().ToList();
+            return null;
         }
     }
 }
