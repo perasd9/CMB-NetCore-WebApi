@@ -1,10 +1,5 @@
 ﻿using CombinationWebApp.Application.Interfaces.Repositories.UnitOfWork;
 using CombinationWebApp.Core.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CombinationWebApp.Application.Services
 {
@@ -17,10 +12,9 @@ namespace CombinationWebApp.Application.Services
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<IEnumerable<User>> GetUsers()
+        public async Task<List<User>> GetUsers()
         {
-            //return _unitOfWork.UserRepository.GetAll().ToList();
-            return null;
+            return _unitOfWork.UserRepository.GetAll().ToList();
         }
     }
 }

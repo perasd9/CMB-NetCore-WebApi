@@ -89,3 +89,5 @@ C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\Combina
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\Grpc.Net.Client.dll
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\Grpc.Net.Common.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\Grpc.AspNetCore.Server.Reflection.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\Grpc.Reflection.dll

@@ -1,6 +1,4 @@
 ﻿using CombinationWebApp.Application.Interfaces.Repositories.Abstraction;
-using CombinationWebApp.Core.Model.Abstraction;
-using CombinationWebApp.Infrastructure.ContextDb;
 using System.Linq.Expressions;
 
 namespace CombinationWebApp.Infrastructure.Repositories

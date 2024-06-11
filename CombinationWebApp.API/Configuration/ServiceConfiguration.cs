@@ -1,10 +1,10 @@
-﻿using CombinationWebApp.Application.GrpcServices;
-using CombinationWebApp.Application.Interfaces.Repositories;
+﻿using CombinationWebApp.Application.Interfaces.Repositories;
 using CombinationWebApp.Application.Interfaces.Repositories.UnitOfWork;
 using CombinationWebApp.Application.Services;
 using CombinationWebApp.Infrastructure.ContextDb;
 using CombinationWebApp.Infrastructure.Repositories;
 using CombinationWebApp.Infrastructure.Repositories.Unit_Of_Work;
+using CombinationWebApp.Presentation.Grpc_Controllers;
 using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.EntityFrameworkCore;
 
@@ -40,8 +40,12 @@ namespace CombinationWebApp.API.Configuration
             services.AddTransient<AccountService>();
             services.AddTransient<CategoryService>();
             services.AddTransient<TransactionService>();
-            //services.AddTransient<UserService>();
-            services.AddTransient<UserServiceGrpc>();
+            services.AddTransient<UserService>();
+
+            services.AddTransient<AccountGrpcController>();
+            services.AddTransient<CategoryGrpcController>();
+            services.AddTransient<TransactionGrpcController>();
+            services.AddTransient<UserGrpcController>();
         }
 
         public static void RegisterGrpc(this IServiceCollection services)

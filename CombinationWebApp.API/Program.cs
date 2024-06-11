@@ -1,6 +1,5 @@
-
 using CombinationWebApp.API.Configuration;
-using CombinationWebApp.Application.GrpcServices;
+using CombinationWebApp.Presentation.Grpc_Controllers;
 
 namespace CombinationWebApp.API
 {
@@ -23,12 +22,15 @@ namespace CombinationWebApp.API
 
             builder.Services.RegisterGrpc();
 
+            builder.Services.AddGrpcReflection();
+
             var app = builder.Build();
 
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
+                app.MapGrpcReflectionService();
             }
 
             app.UseHttpsRedirection();
@@ -36,7 +38,10 @@ namespace CombinationWebApp.API
             app.UseAuthorization();
 
             app.MapControllers();
-            app.MapGrpcService<UserServiceGrpc>();
+            app.MapGrpcService<AccountGrpcController>();
+            app.MapGrpcService<CategoryGrpcController>();
+            app.MapGrpcService<TransactionGrpcController>();
+            app.MapGrpcService<UserGrpcController>();
 
             app.Run();
         }

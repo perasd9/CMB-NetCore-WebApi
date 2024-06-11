@@ -50,6 +50,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Grpc.AspNetCore.Server.Reflection": {
+              "target": "Package",
+              "version": "[2.63.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.12, )"

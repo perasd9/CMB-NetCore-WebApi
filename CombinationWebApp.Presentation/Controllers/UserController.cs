@@ -1,4 +1,4 @@
-﻿using CombinationWebApp.Application.GrpcServices;
+﻿using CombinationWebApp.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CombinationWebApp.Presentation.Controllers
@@ -7,18 +7,17 @@ namespace CombinationWebApp.Presentation.Controllers
     [Route("api/v1/user")]
     public class UserController : ControllerBase
     {
-        private readonly UserServiceGrpc _userServiceGrpc;
+        private readonly UserService _userService;
 
-        public UserController(UserServiceGrpc userServiceGrpc)
+        public UserController(UserService userServiceGrpc)
         {
-            _userServiceGrpc = userServiceGrpc;
+            _userService = userServiceGrpc;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetUsers()
         {
-            //return Ok(await _userService.GetUsers());
-            return Ok(await _userServiceGrpc.GetUsers());
+            return Ok(await _userService.GetUsers());
         }
     }
 }

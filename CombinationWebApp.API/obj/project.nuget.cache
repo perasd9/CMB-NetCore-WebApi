@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ckVO50ZzpnYGiKUpBAjU+pykDXfixppVgu8G3mhsy6QkKDYQh+y5CWCwhTInuQGbqIi2V2o/TwsfdP6UDU81kw==",
+  "dgSpecHash": "1ZU2/9Uht6XJNRLG+6cd513yY01+dDGqK10Ya6bF7MWzARJQc0gONc2OFEr7rFStJ6jZsgDZI15sWU9L7ICrsw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.API\\CombinationWebApp.API.csproj",
   "expectedPackageFiles": [
@@ -10,10 +10,12 @@
     "C:\\Users\\Pera\\.nuget\\packages\\grpc.aspnetcore\\2.63.0\\grpc.aspnetcore.2.63.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\grpc.aspnetcore.server\\2.63.0\\grpc.aspnetcore.server.2.63.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.63.0\\grpc.aspnetcore.server.clientfactory.2.63.0.nupkg.sha512",
+    "C:\\Users\\Pera\\.nuget\\packages\\grpc.aspnetcore.server.reflection\\2.63.0\\grpc.aspnetcore.server.reflection.2.63.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\grpc.core.api\\2.63.0\\grpc.core.api.2.63.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\grpc.net.client\\2.63.0\\grpc.net.client.2.63.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\grpc.net.clientfactory\\2.63.0\\grpc.net.clientfactory.2.63.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\grpc.net.common\\2.63.0\\grpc.net.common.2.63.0.nupkg.sha512",
+    "C:\\Users\\Pera\\.nuget\\packages\\grpc.reflection\\2.63.0\\grpc.reflection.2.63.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

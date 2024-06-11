@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CombinationWebApp.Application.Interfaces.Repositories.UnitOfWork
+﻿namespace CombinationWebApp.Application.Interfaces.Repositories.UnitOfWork
 {
     public interface IUnitOfWork
     {
