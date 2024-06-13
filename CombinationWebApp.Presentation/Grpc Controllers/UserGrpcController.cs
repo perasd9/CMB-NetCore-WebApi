@@ -5,36 +5,46 @@ namespace CombinationWebApp.Presentation.Grpc_Controllers
 {
     public class UserGrpcController : UserService.UserServiceBase
     {
-        CombinationWebApp.Application.Services.UserService _userService;
+        private readonly Application.Services.UserService _userService;
 
-        public UserGrpcController(CombinationWebApp.Application.Services.UserService userService)
+        public UserGrpcController(Application.Services.UserService userService)
         {
             _userService = userService;
         }
 
         public async override Task<UserList> GetAll(Empty request, ServerCallContext context)
         {
-            List<CombinationWebApp.Core.Model.User> users = await _userService.GetUsers();
-
-            List<User> grpcUsers = new List<User>();
-
-            foreach (var user in users)
+            try
             {
-                grpcUsers.Add(new User
+                List<CombinationWebApp.Core.Model.User> users = await _userService.GetUsers() ?? throw new RpcException(new Status(StatusCode.NotFound, "No users found"));
+                List<User> grpcUsers = new();
+
+                foreach (var user in users)
                 {
-                    UserId = user.UserId,
-                    Username = user.Username,
-                    Password = user.Password,
-                    Name = user.Name,
-                    Surname = user.Surname,
-                    Address = user.Address
-                });
+                    grpcUsers.Add(new User
+                    {
+                        UserId = user.UserId,
+                        Username = user.Username,
+                        Password = user.Password,
+                        Name = user.Name,
+                        Surname = user.Surname,
+                        Address = user.Address
+                    });
+                }
+
+                UserList userList = new();
+                userList.Users.AddRange(grpcUsers);
+
+                return userList;
             }
-
-            UserList userList = new UserList();
-            userList.Users.AddRange(grpcUsers);
-
-            return userList;
+            catch (RpcException ex)
+            {
+                throw; // Re-throw RpcException
+            }
+            catch (Exception ex)
+            {
+                throw new RpcException(new Status(StatusCode.Internal, $"Internal server error: {ex.Message}"));
+            }
         }
 
         public override Task<UserList> GetBySearch(UserSearchRequest request, ServerCallContext context)

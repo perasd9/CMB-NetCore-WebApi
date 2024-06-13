@@ -5,9 +5,9 @@ namespace CombinationWebApp.Presentation.Grpc_Controllers
 {
     public class TransactionGrpcController : TransactionService.TransactionServiceBase
     {
-        CombinationWebApp.Application.Services.TransactionService _transactionService;
+        private readonly Application.Services.TransactionService _transactionService;
 
-        public TransactionGrpcController(CombinationWebApp.Application.Services.TransactionService transactionService)
+        public TransactionGrpcController(Application.Services.TransactionService transactionService)
         {
             _transactionService = transactionService;
         }

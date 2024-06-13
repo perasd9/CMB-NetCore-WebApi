@@ -5,9 +5,9 @@ namespace CombinationWebApp.Presentation.Grpc_Controllers
 {
     public class CategoryGrpcController : CategoryService.CategoryServiceBase
     {
-        CombinationWebApp.Application.Services.CategoryService _categoryService;
+        private readonly Application.Services.CategoryService _categoryService;
 
-        public CategoryGrpcController(CombinationWebApp.Application.Services.CategoryService categoryService)
+        public CategoryGrpcController(Application.Services.CategoryService categoryService)
         {
             _categoryService = categoryService;
         }

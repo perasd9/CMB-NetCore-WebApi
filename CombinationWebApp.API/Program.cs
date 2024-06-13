@@ -1,5 +1,8 @@
 using CombinationWebApp.API.Configuration;
 using CombinationWebApp.Presentation.Grpc_Controllers;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
+using Microsoft.Extensions.Options;
+using System.Net;
 
 namespace CombinationWebApp.API
 {
@@ -9,6 +12,20 @@ namespace CombinationWebApp.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.WebHost.ConfigureKestrel(serverOptions =>
+            {
+                serverOptions.Limits.MaxConcurrentConnections = 5000;
+                serverOptions.Limits.MaxConcurrentUpgradedConnections = 5000;
+
+                ThreadPool.SetMinThreads(200, 200);
+
+                serverOptions.ConfigureEndpointDefaults(lo => lo.Protocols = HttpProtocols.Http2);
+                serverOptions.Listen(IPAddress.Loopback, 7030, listenOptions =>
+                {
+                    listenOptions.UseHttps();
+                });
+
+            });
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

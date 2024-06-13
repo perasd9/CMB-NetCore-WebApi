@@ -5,9 +5,9 @@ namespace CombinationWebApp.Presentation.Grpc_Controllers
 {
     public class AccountGrpcController : AccountService.AccountServiceBase
     {
-        CombinationWebApp.Application.Services.AccountService _accountService;
+        private readonly Application.Services.AccountService _accountService;
 
-        public AccountGrpcController(CombinationWebApp.Application.Services.AccountService accountService)
+        public AccountGrpcController(Application.Services.AccountService accountService)
         {
             _accountService = accountService;
         }

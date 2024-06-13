@@ -5,7 +5,7 @@ namespace CombinationWebApp.Infrastructure.Repositories
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
-        private ContextDb.Context _context;
+        private readonly ContextDb.Context _context;
 
         public Repository(ContextDb.Context context)
         {
