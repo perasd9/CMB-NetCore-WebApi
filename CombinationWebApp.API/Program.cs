@@ -1,7 +1,11 @@
 using CombinationWebApp.API.Configuration;
+using CombinationWebApp.Application.Event_Bus;
+using CombinationWebApp.Application.Event_Bus.Base;
+using CombinationWebApp.Application.Event_Handlers;
+using CombinationWebApp.Application.Event_Handlers.Base;
+using CombinationWebApp.Core.Events.Users;
 using CombinationWebApp.Presentation.Grpc_Controllers;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
-using Microsoft.Extensions.Options;
 using System.Net;
 
 namespace CombinationWebApp.API
@@ -36,6 +40,9 @@ namespace CombinationWebApp.API
 
             builder.Services.RegisterRepositories();
             builder.Services.RegisterServices();
+
+            builder.Services.AddScoped<IEventBus, EventBus>();
+            builder.Services.AddScoped<IEventHandler<GetAllUsersEvent>, GetAllUsersEventHandler>();
 
             builder.Services.RegisterGrpc();
 

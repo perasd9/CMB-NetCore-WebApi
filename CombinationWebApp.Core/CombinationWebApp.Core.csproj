@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\account.proto" GrpcServices="Server"/>
+    <Protobuf Include="Protos\account.proto" GrpcServices="Server" />
     <Protobuf Include="Protos\category.proto" GrpcServices="Server" />
     <Protobuf Include="Protos\transaction.proto" GrpcServices="Server" />
     <Protobuf Include="Protos\user.proto" GrpcServices="Server" />
