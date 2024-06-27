@@ -15,3 +15,20 @@ C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\Combina
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Application.pdb
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Core.pdb
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET CQRS MediatR + Blazor\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\CombinationWebApp.Presentation.csproj.CopyComplete
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Presentation.deps.json
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Presentation.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Presentation.pdb
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Application.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Core.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Application.pdb
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\bin\Debug\net7.0\CombinationWebApp.Core.pdb
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\CombinationWebApp.Presentation.csproj.AssemblyReference.cache
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\CombinationWebApp.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\CombinationWebApp.Presentation.AssemblyInfoInputs.cache
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\CombinationWebApp.Presentation.AssemblyInfo.cs
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\CombinationWebApp.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\CombinationWebApp.Presentation.csproj.CopyComplete
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\CombinationWebApp.Presentation.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\refint\CombinationWebApp.Presentation.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\CombinationWebApp.Presentation.pdb
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture\CombinationWebApp.API\CombinationWebApp.Presentation\obj\Debug\net7.0\ref\CombinationWebApp.Presentation.dll

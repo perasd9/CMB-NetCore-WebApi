@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pqYmL8XdheabGIiniyruI9PUHgzauXE2FdTmMr05KrrZgRtedIwg/D47o+vZZhgmq/z8pdms0nVEL6uKEn4D7A==",
+  "dgSpecHash": "g3C6lqOexghY9N+WkTMjmtpXnR19oe7ZexfflptRQsc+lKwEKu7VSV7RAOg8mb3qJrsaWC3h/EQlDJqezj7uNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Presentation\\CombinationWebApp.Presentation.csproj",
+  "projectFilePath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Presentation\\CombinationWebApp.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pera\\.nuget\\packages\\google.protobuf\\3.24.0\\google.protobuf.3.24.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\grpc.aspnetcore\\2.63.0\\grpc.aspnetcore.2.63.0.nupkg.sha512",

@@ -4603,11 +4603,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.API\\CombinationWebApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.API\\CombinationWebApp.API.csproj",
       "projectName": "CombinationWebApp.API",
-      "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.API\\CombinationWebApp.API.csproj",
+      "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.API\\CombinationWebApp.API.csproj",
       "packagesPath": "C:\\Users\\Pera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.API\\obj\\",
+      "outputPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4627,11 +4627,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Infrastructure\\CombinationWebApp.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Infrastructure\\CombinationWebApp.Infrastructure.csproj"
+            "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Infrastructure\\CombinationWebApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Infrastructure\\CombinationWebApp.Infrastructure.csproj"
             },
-            "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Presentation\\CombinationWebApp.Presentation.csproj": {
-              "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET CQRS MediatR + Blazor\\CombinationWebApp.API\\CombinationWebApp.Presentation\\CombinationWebApp.Presentation.csproj"
+            "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Presentation\\CombinationWebApp.Presentation.csproj": {
+              "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Presentation\\CombinationWebApp.Presentation.csproj"
             }
           }
         }
