@@ -16,23 +16,19 @@ namespace CombinationWebApp.Presentation.Grpc_Controllers
         {
             try
             {
+                // Direktno koristite LINQ za konverziju liste
                 List<CombinationWebApp.Core.Model.User> users = await _userService.GetUsers() ?? throw new RpcException(new Status(StatusCode.NotFound, "No users found"));
-                List<User> grpcUsers = new();
-
-                foreach (var user in users)
+                List<User> grpcUsers = users.Select(user => new User
                 {
-                    grpcUsers.Add(new User
-                    {
-                        UserId = user.UserId,
-                        Username = user.Username,
-                        Password = user.Password,
-                        Name = user.Name,
-                        Surname = user.Surname,
-                        Address = user.Address
-                    });
-                }
+                    UserId = user.UserId,
+                    Username = user.Username,
+                    Password = user.Password,
+                    Name = user.Name,
+                    Surname = user.Surname,
+                    Address = user.Address
+                }).ToList();
 
-                UserList userList = new();
+                UserList userList = new UserList();
                 userList.Users.AddRange(grpcUsers);
 
                 return userList;
@@ -46,6 +42,7 @@ namespace CombinationWebApp.Presentation.Grpc_Controllers
                 throw new RpcException(new Status(StatusCode.Internal, $"Internal server error: {ex.Message}"));
             }
         }
+
 
         public override Task<UserList> GetBySearch(UserSearchRequest request, ServerCallContext context)
         {

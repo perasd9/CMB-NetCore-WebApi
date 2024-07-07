@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bY7IeVtrfU3OHBa+wV3hWTC5eHLzmNbS8L5666ZEVEYw4scGf3qIr6DEle3p7vac9cqXsuEooJsxstsBHSEW1w==",
+  "dgSpecHash": "yXobhdU//oMIWv5Qg17XmvaTAYJ3VZOTwtWcuGTOKt7y87xD10v/Maj3r1SIgguDSq1Wl9wGEKlGvokLaTWCSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.API\\CombinationWebApp.API.csproj",
+  "projectFilePath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.API\\CombinationWebApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pera\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

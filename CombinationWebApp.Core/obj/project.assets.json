@@ -794,11 +794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Core\\CombinationWebApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.Core\\CombinationWebApp.Core.csproj",
       "projectName": "CombinationWebApp.Core",
-      "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Core\\CombinationWebApp.Core.csproj",
+      "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.Core\\CombinationWebApp.Core.csproj",
       "packagesPath": "C:\\Users\\Pera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Core\\obj\\",
+      "outputPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

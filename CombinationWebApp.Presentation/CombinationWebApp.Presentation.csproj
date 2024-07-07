@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CombinationWebApp.Application\CombinationWebApp.Application.csproj" />
     <ProjectReference Include="..\CombinationWebApp.Core\CombinationWebApp.Core.csproj" />
+    <ProjectReference Include="..\CombinationWebApp.DataTransferModel\CombinationWebApp.DataTransferModel.csproj" />
   </ItemGroup>
 
 </Project>

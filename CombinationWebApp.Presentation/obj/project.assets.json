@@ -1406,6 +1406,16 @@
         "runtime": {
           "bin/placeholder/CombinationWebApp.Core.dll": {}
         }
+      },
+      "CombinationWebApp.DataTransferModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CombinationWebApp.DataTransferModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CombinationWebApp.DataTransferModel.dll": {}
+        }
       }
     }
   },
@@ -4414,12 +4424,18 @@
       "type": "project",
       "path": "../CombinationWebApp.Core/CombinationWebApp.Core.csproj",
       "msbuildProject": "../CombinationWebApp.Core/CombinationWebApp.Core.csproj"
+    },
+    "CombinationWebApp.DataTransferModel/1.0.0": {
+      "type": "project",
+      "path": "../CombinationWebApp.DataTransferModel/CombinationWebApp.DataTransferModel.csproj",
+      "msbuildProject": "../CombinationWebApp.DataTransferModel/CombinationWebApp.DataTransferModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "CombinationWebApp.Application >= 1.0.0",
       "CombinationWebApp.Core >= 1.0.0",
+      "CombinationWebApp.DataTransferModel >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5"
     ]
   },
@@ -4430,11 +4446,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Presentation\\CombinationWebApp.Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.Presentation\\CombinationWebApp.Presentation.csproj",
       "projectName": "CombinationWebApp.Presentation",
-      "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Presentation\\CombinationWebApp.Presentation.csproj",
+      "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.Presentation\\CombinationWebApp.Presentation.csproj",
       "packagesPath": "C:\\Users\\Pera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Presentation\\obj\\",
+      "outputPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4454,11 +4470,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Application\\CombinationWebApp.Application.csproj": {
-              "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Application\\CombinationWebApp.Application.csproj"
+            "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.Application\\CombinationWebApp.Application.csproj": {
+              "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.Application\\CombinationWebApp.Application.csproj"
             },
-            "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Core\\CombinationWebApp.Core.csproj": {
-              "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture\\CombinationWebApp.API\\CombinationWebApp.Core\\CombinationWebApp.Core.csproj"
+            "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.Core\\CombinationWebApp.Core.csproj": {
+              "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.Core\\CombinationWebApp.Core.csproj"
+            },
+            "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.DataTransferModel\\CombinationWebApp.DataTransferModel.csproj": {
+              "projectPath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.DataTransferModel\\CombinationWebApp.DataTransferModel.csproj"
             }
           }
         }

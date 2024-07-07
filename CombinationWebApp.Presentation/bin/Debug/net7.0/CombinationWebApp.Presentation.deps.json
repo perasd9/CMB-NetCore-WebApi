@@ -10,6 +10,7 @@
         "dependencies": {
           "CombinationWebApp.Application": "1.0.0",
           "CombinationWebApp.Core": "1.0.0",
+          "CombinationWebApp.DataTransferModel": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "runtime": {
@@ -691,6 +692,11 @@
         "runtime": {
           "CombinationWebApp.Core.dll": {}
         }
+      },
+      "CombinationWebApp.DataTransferModel/1.0.0": {
+        "runtime": {
+          "CombinationWebApp.DataTransferModel.dll": {}
+        }
       }
     }
   },
@@ -1273,6 +1279,11 @@
       "sha512": ""
     },
     "CombinationWebApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CombinationWebApp.DataTransferModel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

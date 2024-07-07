@@ -18,16 +18,16 @@ namespace CombinationWebApp.API
 
             builder.WebHost.ConfigureKestrel(serverOptions =>
             {
-                serverOptions.Limits.MaxConcurrentConnections = 5000;
-                serverOptions.Limits.MaxConcurrentUpgradedConnections = 5000;
+                //serverOptions.Limits.MaxConcurrentConnections = 5000;
+                //serverOptions.Limits.MaxConcurrentUpgradedConnections = 5000;
 
-                ThreadPool.SetMinThreads(200, 200);
+                //ThreadPool.SetMinThreads(200, 200);
 
-                serverOptions.ConfigureEndpointDefaults(lo => lo.Protocols = HttpProtocols.Http2);
-                serverOptions.Listen(IPAddress.Loopback, 7030, listenOptions =>
-                {
-                    listenOptions.UseHttps();
-                });
+                //serverOptions.ConfigureEndpointDefaults(lo => lo.Protocols = HttpProtocols.Http2);
+                //serverOptions.Listen(IPAddress.Loopback, 7030, listenOptions =>
+                //{
+                //    listenOptions.UseHttps();
+                //});
 
             });
 
