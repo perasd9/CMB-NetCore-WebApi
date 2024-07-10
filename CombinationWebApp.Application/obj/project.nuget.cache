@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iFApUPLHpo4BxZTKo3JWJul9rQN6C5qf3pw3hl8xL5YHxYsf1JwDQ8C3lMspUoEglIgsBgSRdA/2jWLB9wzd+w==",
+  "dgSpecHash": "3zQQKGtzp5O7PLkAUh8AytfJ/AjAmUn26Q5DeC/lVpkHPWsL19RwJduDhbHEZsg5pfG7hTUm+0vENU2JE0oZLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.Application\\CombinationWebApp.Application.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,9 @@
     "C:\\Users\\Pera\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Pera\\.nuget\\packages\\protobuf-net\\3.2.30\\protobuf-net.3.2.30.nupkg.sha512",
+    "C:\\Users\\Pera\\.nuget\\packages\\protobuf-net.core\\3.2.30\\protobuf-net.core.3.2.30.nupkg.sha512",
+    "C:\\Users\\Pera\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],

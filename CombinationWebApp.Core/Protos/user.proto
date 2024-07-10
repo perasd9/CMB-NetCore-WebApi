@@ -15,7 +15,7 @@ service UserService {
 message Empty{}
 
 message UserList {
-  repeated User users = 1;
+  bytes users = 1;
 }
 
 message UserSearchRequest {

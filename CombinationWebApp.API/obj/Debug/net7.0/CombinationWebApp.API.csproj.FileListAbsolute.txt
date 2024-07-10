@@ -279,3 +279,5 @@ C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture + grpc + e
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture + grpc + event\CombinationWebApp.API\CombinationWebApp.API\obj\Debug\net7.0\ref\CombinationWebApp.API.dll
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture + grpc + event\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\CombinationWebApp.DataTransferModel.dll
 C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture + grpc + event\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\CombinationWebApp.DataTransferModel.pdb
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture + grpc + event\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\protobuf-net.dll
+C:\Users\Pera\Desktop\projekti\mini m-banking .NET clean architecture + grpc + event\CombinationWebApp.API\CombinationWebApp.API\bin\Debug\net7.0\protobuf-net.Core.dll

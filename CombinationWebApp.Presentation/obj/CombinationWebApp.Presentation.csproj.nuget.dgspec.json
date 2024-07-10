@@ -114,6 +114,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.64.0, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.2.30, )"
             }
           },
           "imports": [
@@ -246,6 +250,10 @@
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.2.30, )"
             }
           },
           "imports": [

@@ -1,4 +1,5 @@
 ﻿using CombinationWebApp.Protos;
+using Google.Protobuf;
 using Grpc.Core;
 
 namespace CombinationWebApp.Presentation.Grpc_Controllers
@@ -16,20 +17,22 @@ namespace CombinationWebApp.Presentation.Grpc_Controllers
         {
             try
             {
-                // Direktno koristite LINQ za konverziju liste
                 List<CombinationWebApp.Core.Model.User> users = await _userService.GetUsers() ?? throw new RpcException(new Status(StatusCode.NotFound, "No users found"));
-                List<User> grpcUsers = users.Select(user => new User
-                {
-                    UserId = user.UserId,
-                    Username = user.Username,
-                    Password = user.Password,
-                    Name = user.Name,
-                    Surname = user.Surname,
-                    Address = user.Address
-                }).ToList();
 
-                UserList userList = new UserList();
-                userList.Users.AddRange(grpcUsers);
+                var userListBytes = SerializeListToBytes(users);
+
+                UserList userList = new()
+                {
+                    Users = ByteString.CopyFrom(userListBytes)
+                };
+
+
+                //byte[] userBytes = userList.Users.ToByteArray();
+                //List<CombinationWebApp.Core.Model.User> usersMy;
+                //using (var memoryStream = new MemoryStream(userBytes))
+                //{
+                //    usersMy = Serializer.Deserialize<List<CombinationWebApp.Core.Model.User>>(memoryStream);
+                //}
 
                 return userList;
             }
@@ -42,7 +45,15 @@ namespace CombinationWebApp.Presentation.Grpc_Controllers
                 throw new RpcException(new Status(StatusCode.Internal, $"Internal server error: {ex.Message}"));
             }
         }
-
+        //helper method for serialization
+        private byte[] SerializeListToBytes(List<CombinationWebApp.Core.Model.User> users)
+        {
+            using (var memoryStream = new MemoryStream())
+            {
+                ProtoBuf.Serializer.Serialize(memoryStream, users);
+                return memoryStream.ToArray();
+            }
+        }
 
         public override Task<UserList> GetBySearch(UserSearchRequest request, ServerCallContext context)
         {

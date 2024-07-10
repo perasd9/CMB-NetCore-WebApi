@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L2A2MQELufvjtUcO7bwYqeQmV9BTIRk5LWFEH1PDra5Z0/1fXVCGn+nbeeMX/evAyfh0MRDn/ebes/rBpUAQ9w==",
+  "dgSpecHash": "N7w7ae/mHiZ+2sWGP8Ew0ttpPyvD5KBlEPyvwZolPsJakn7u7qRBRfSXqh1xqLuiRZ+lo254zWCZKKfW0MxSYw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pera\\Desktop\\projekti\\mini m-banking .NET clean architecture + grpc + event\\CombinationWebApp.API\\CombinationWebApp.Infrastructure\\CombinationWebApp.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -49,7 +49,10 @@
     "C:\\Users\\Pera\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Pera\\.nuget\\packages\\protobuf-net\\3.2.30\\protobuf-net.3.2.30.nupkg.sha512",
+    "C:\\Users\\Pera\\.nuget\\packages\\protobuf-net.core\\3.2.30\\protobuf-net.core.3.2.30.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
+    "C:\\Users\\Pera\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "C:\\Users\\Pera\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
