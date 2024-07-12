@@ -31,5 +31,13 @@ namespace CombinationWebApp.Presentation.Controllers
 
             return Ok(usersDTO);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddUser([FromBody] User user)
+        {
+            await _userService.AddUser(user);
+
+            return Ok();
+        }
     }
 }

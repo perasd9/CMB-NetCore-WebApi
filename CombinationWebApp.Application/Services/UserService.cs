@@ -16,5 +16,11 @@ namespace CombinationWebApp.Application.Services
         {
             return _unitOfWork.UserRepository.GetAll().ToList();
         }
+
+        public async Task AddUser(User user)
+        {
+            _unitOfWork.UserRepository.Save(user);
+            await _unitOfWork.SaveChanges();
+        }
     }
 }

@@ -60,9 +60,20 @@ namespace CombinationWebApp.Presentation.Grpc_Controllers
             return base.GetBySearch(request, context);
         }
 
-        public override Task<UserReply> Save(UserRequest request, ServerCallContext context)
+        public async override Task<UserReply> Save(UserRequest request, ServerCallContext context)
         {
-            return base.Save(request, context);
+            Core.Model.User user = new()
+            {
+                Address = request.User.Address,
+                Name = request.User.Name,
+                Password = request.User.Password,
+                Surname = request.User.Surname,
+                Username = request.User.Username
+            };
+
+            await _userService.AddUser(user);
+
+            return new UserReply() { User = request.User};
         }
 
         public override Task<UserReply> Update(UserRequest request, ServerCallContext context)

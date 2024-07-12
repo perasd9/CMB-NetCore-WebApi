@@ -23,11 +23,11 @@ namespace CombinationWebApp.API
 
                 //ThreadPool.SetMinThreads(200, 200);
 
-                //serverOptions.ConfigureEndpointDefaults(lo => lo.Protocols = HttpProtocols.Http2);
-                //serverOptions.Listen(IPAddress.Loopback, 7030, listenOptions =>
-                //{
-                //    listenOptions.UseHttps();
-                //});
+                serverOptions.ConfigureEndpointDefaults(lo => lo.Protocols = HttpProtocols.Http1);
+                serverOptions.Listen(IPAddress.Loopback, 7030, listenOptions =>
+                {
+                    listenOptions.UseHttps();
+                });
 
             });
 
