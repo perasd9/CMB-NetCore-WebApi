@@ -24,10 +24,7 @@ namespace CombinationWebApp.API
                 //ThreadPool.SetMinThreads(200, 200);
 
                 serverOptions.ConfigureEndpointDefaults(lo => lo.Protocols = HttpProtocols.Http1AndHttp2);
-                serverOptions.Listen(IPAddress.Loopback, 7030, listenOptions =>
-                {
-                    listenOptions.UseHttps();
-                });
+
 
             });
 
