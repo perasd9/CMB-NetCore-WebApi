@@ -1,4 +1,4 @@
-using CombinationWebApp.API.Configuration;
+﻿using CombinationWebApp.API.Configuration;
 using CombinationWebApp.Application.Event_Bus;
 using CombinationWebApp.Application.Event_Bus.Base;
 using CombinationWebApp.Application.Event_Handlers;
@@ -25,6 +25,10 @@ namespace CombinationWebApp.API
 
                 serverOptions.ConfigureEndpointDefaults(lo => lo.Protocols = HttpProtocols.Http1AndHttp2);
 
+                serverOptions.Listen(IPAddress.Loopback, 7030, listenOptions =>
+                {
+                    listenOptions.UseHttps();
+                });
 
             });
 
@@ -52,9 +56,11 @@ namespace CombinationWebApp.API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-                app.MapGrpcReflectionService();
+            app.MapGrpcReflectionService();
 
             app.UseHttpsRedirection();
+
+            app.UseHsts();
 
             app.UseAuthorization();
 
