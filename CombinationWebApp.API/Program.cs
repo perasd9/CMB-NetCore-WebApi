@@ -51,8 +51,8 @@ namespace CombinationWebApp.API
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
-                app.MapGrpcReflectionService();
             }
+                app.MapGrpcReflectionService();
 
             app.UseHttpsRedirection();
 
