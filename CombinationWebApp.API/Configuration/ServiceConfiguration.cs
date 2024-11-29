@@ -1,26 +1,21 @@
-﻿using CombinationWebApp.Application.Interfaces.Repositories;
-using CombinationWebApp.Application.Interfaces.Repositories.UnitOfWork;
-using CombinationWebApp.Application.Services;
-using CombinationWebApp.Infrastructure.ContextDb;
-using CombinationWebApp.Infrastructure.Repositories;
+﻿using CombinationWebApp.API.Database.Context;
+using CombinationWebApp.API.Database.Interfaces;
+using CombinationWebApp.API.Database.Interfaces.UnitOfWork;
+using CombinationWebApp.API.Database.Repositories;
+using CombinationWebApp.API.Features.Accounts;
+using CombinationWebApp.API.Features.Categories;
+using CombinationWebApp.API.Features.Transactions;
+using CombinationWebApp.API.Features.Users;
 using CombinationWebApp.Infrastructure.Repositories.Unit_Of_Work;
-using CombinationWebApp.Presentation.Grpc_Controllers;
-using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.EntityFrameworkCore;
 
 namespace CombinationWebApp.API.Configuration
 {
     public static class ServiceConfiguration
     {
-        public static void RegisterControllers(this IServiceCollection services)
-        {
-            services.AddControllers().PartManager.ApplicationParts.Add(new AssemblyPart(typeof(CombinationWebApp.Presentation.Startup).Assembly));
-
-        }
-
         public static void RegisterDbContext(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<Context>(options =>
+            services.AddDbContext<ApplicationContext>(options =>
             {
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
             });
@@ -42,15 +37,6 @@ namespace CombinationWebApp.API.Configuration
             services.AddTransient<TransactionService>();
             services.AddTransient<UserService>();
 
-            services.AddTransient<AccountGrpcController>();
-            services.AddTransient<CategoryGrpcController>();
-            services.AddTransient<TransactionGrpcController>();
-            services.AddTransient<UserGrpcController>();
-        }
-
-        public static void RegisterGrpc(this IServiceCollection services)
-        {
-            services.AddGrpc();
         }
     }
 }

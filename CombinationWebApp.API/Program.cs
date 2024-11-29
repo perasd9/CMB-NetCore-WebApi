@@ -1,10 +1,5 @@
-﻿using CombinationWebApp.API.Configuration;
-using CombinationWebApp.Application.Event_Bus;
-using CombinationWebApp.Application.Event_Bus.Base;
-using CombinationWebApp.Application.Event_Handlers;
-using CombinationWebApp.Application.Event_Handlers.Base;
-using CombinationWebApp.Core.Events.Users;
-using CombinationWebApp.Presentation.Grpc_Controllers;
+﻿using Carter;
+using CombinationWebApp.API.Configuration;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using System.Net;
 
@@ -18,13 +13,12 @@ namespace CombinationWebApp.API
 
             builder.WebHost.ConfigureKestrel(serverOptions =>
             {
-                //serverOptions.Limits.MaxConcurrentConnections = 5000;
-                //serverOptions.Limits.MaxConcurrentUpgradedConnections = 5000;
-
-                //ThreadPool.SetMinThreads(200, 200);
-
                 serverOptions.ConfigureEndpointDefaults(lo => lo.Protocols = HttpProtocols.Http1AndHttp2);
 
+                serverOptions.Listen(IPAddress.Loopback, 7030, listenOptions =>
+                {
+                    listenOptions.UseHttps();
+                });
 
             });
 
@@ -33,17 +27,10 @@ namespace CombinationWebApp.API
 
             builder.Services.RegisterDbContext(builder.Configuration);
 
-            builder.Services.RegisterControllers();
-
             builder.Services.RegisterRepositories();
             builder.Services.RegisterServices();
 
-            builder.Services.AddScoped<IEventBus, EventBus>();
-            builder.Services.AddScoped<IEventHandler<GetAllUsersEvent>, GetAllUsersEventHandler>();
-
-            builder.Services.RegisterGrpc();
-
-            builder.Services.AddGrpcReflection();
+            builder.Services.AddCarter();
 
             var app = builder.Build();
 
@@ -52,19 +39,12 @@ namespace CombinationWebApp.API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-            app.MapGrpcReflectionService();
 
             app.UseHttpsRedirection();
 
             app.UseHsts();
 
-            app.UseAuthorization();
-
-            app.MapControllers();
-            app.MapGrpcService<AccountGrpcController>();
-            app.MapGrpcService<CategoryGrpcController>();
-            app.MapGrpcService<TransactionGrpcController>();
-            app.MapGrpcService<UserGrpcController>();
+            app.MapCarter();
 
             app.UseMiddleware<ProtocolLoggingMiddleware>();
             app.Run();

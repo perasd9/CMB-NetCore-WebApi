@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Grpc.AspNetCore.Server.Reflection" Version="2.63.0" />
+    <PackageReference Include="Carter" Version="7.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.20" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.20">
@@ -21,8 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CombinationWebApp.Infrastructure\CombinationWebApp.Infrastructure.csproj" />
-    <ProjectReference Include="..\CombinationWebApp.Presentation\CombinationWebApp.Presentation.csproj" />
+    <Folder Include="Features\Accounts\GetAccounts\" />
+    <Folder Include="Features\Accounts\CreateAccount\" />
+    <Folder Include="Features\Categories\GetCategories\" />
+    <Folder Include="Features\Categories\CreateCategory\" />
+    <Folder Include="Features\Transactions\GetTransactions\" />
+    <Folder Include="Features\Transactions\CreateTransaction\" />
   </ItemGroup>
 
 </Project>
